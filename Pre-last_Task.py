@@ -76,7 +76,23 @@ for _ in range(m):
 # OHCMZSSM RRJHDOUTF  gives 0, but must 1
 
 
+''' example input
+9
+Alexei Peter_I
+Anna Peter_I
+Elizabeth Peter_I
+Peter_II Alexei
+Peter_III Anna
+Paul_I Peter_III
+Alexander_I Paul_I
+Nicholaus_I Paul_I
+3
+Anna Nicholaus_I
+Peter_II Peter_I
+Alexei Paul_I
 
+onput 1 2 0
+'''
 
 '''Условие
 Даны два элемента в дереве. Определите, является ли один из них потомком другого.
